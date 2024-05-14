@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/TeamWin/android_device_asus_I003D'
+        default: 'https://github.com/nebrassy/device_oneplus_waffle-TWRP'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -22,21 +22,23 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/asus/I003D'
+        default: 'device/oneplus/waffle'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
-        required: false
+        required: true
+        default: 'https://github.com/nebrassy/device_oneplus_sm86xx-common-TWRP'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
-        required: false
+        required: true
+        default: 'sm86xx-common'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'I003D'
+        default: 'waffle'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_I003D'
+        default: 'twrp_waffle'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
