@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/nebrassy/device_oneplus_waffle-TWRP'
+        default: 'https://github.com/snowwolf725/device_oneplus_waffle-TWRP'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
