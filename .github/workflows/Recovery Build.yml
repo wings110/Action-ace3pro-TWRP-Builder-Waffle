@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/snowwolf725/device_oneplus_waffle-TWRP'
+        default: 'https://github.com/wings110/device_oneplus_ace3pro-TWRP'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/oneplus/waffle'
+        default: 'device/oneplus/corvette'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: true
@@ -34,11 +34,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'waffle'
+        default: 'corvette'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_waffle'
+        default: 'twrp_corvette'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
